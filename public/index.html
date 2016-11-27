@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>Simple Node Application</title>
+		<link rel="stylesheet" type="text/css" href="/styles.css" />
+		<script src="/lodash/lodash.min.js"></script>
+		<script src="/bluebird/js/browser/bluebird.min.js"></script>
+		<script src="/jquery/dist/jquery.min.js"></script>
+		<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Heading -->
+			<div class="col-sm-12 heading">
+				<h1>Simple Node Application</h1>
+			</div>
+
+			<!-- Left column -->
+			<div class="col-sm-6 saved-cards">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<span class="panel-title bold">Saved Cards</span>
+						<a href="#" id="refresh-cards">
+							<i class="glyphicon glyphicon-refresh"></i>
+						</a>
+					</div>
+					<div id="card-list-container" class="list-group">
+						<!-- this is where the list of saved cards will be inserted -->
+					</div>
+				</div>
+			</div>
+
+			<!-- Right column -->
+			<div class="col-sm-6 create-card">
+				<div id="card-detail-container">
+					<!-- this is where the currently selected card will be inserted -->
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<span class="panel-title bold">New Card</span>
+					</div>
+					<div class="panel-body">
+						<form id="new-card-form">
+							<label>Title</label>
+							<input required type="text" name="title" class="form-control" placeholder="Add a title"/>
+							<label>Body</label>
+							<textarea required name="body" class="form-control" placeholder="Card details go here&hellip;"></textarea>
+							<button class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="/app.js"></script>
+	</body>
+</html>

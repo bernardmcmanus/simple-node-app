@@ -1,0 +1,33 @@
+@import url('/bootstrap/dist/css/bootstrap.min.css');
+@import url('/bootstrap/dist/css/bootstrap-theme.min.css');
+
+.bold {
+	font-weight: bold;
+}
+
+.heading {
+	text-align: center;
+	padding: 36px 0;
+}
+
+.saved-cards .panel-heading > a {
+	margin-left: 5px;
+}
+
+#new-card-form input,
+#new-card-form textarea {
+	margin-bottom: 24px;
+}
+
+#new-card-form textarea {
+	resize: vertical;
+}
+
+.full-card .card-body {
+	white-space: pre;
+	overflow: auto;
+}
+
+.full-card .panel-footer {
+	text-align: right;
+}

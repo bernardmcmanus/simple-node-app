@@ -1,0 +1,32 @@
+{
+  "name": "simple-node-app",
+  "version": "0.1.0",
+  "author": "Grace McManus",
+  "private": true,
+  "license": "MIT",
+  "main": "server",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "npm": ">=3",
+    "node": ">=6"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "fs-extra": "^1.0.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracemcmanus/simple-node-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gracemcmanus/simple-node-app/issues"
+  },
+  "homepage": "https://github.com/gracemcmanus/simple-node-app"
+}
